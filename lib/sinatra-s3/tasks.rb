@@ -1,6 +1,7 @@
 require 'rake'
 require 'rake/testtask'
-require 'rake/gempackagetask'
+require 'rubygems/package_task'
+
 require File.join(File.dirname(__FILE__), 's3')
 
 namespace :db do
